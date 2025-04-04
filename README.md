@@ -5,3 +5,7 @@ Este proyecto es para ir haciendo el trabajo de los personajes de dibujos animad
 
 ## Destinatarios
 Los alumnos de la calse de 4o ESO de un colegio muy majo
+
+## todo en orden
+
+El readme ha cambiado
