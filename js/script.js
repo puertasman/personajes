@@ -4,6 +4,8 @@ let table = document.querySelector("#tablaPersonajes")
 
 if (personajesAnimados.length > 0){
     // hay cosas
+    let th = document.createElement("thead")
+    th.innerHTML = ""
 }
 else{
     // no hay cosas
