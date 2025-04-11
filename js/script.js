@@ -4,8 +4,10 @@ let table = document.querySelector("#tablaPersonajes")
 
 if (personajesAnimados.length > 0){
     // hay cosas
-    let th = document.createElement("thead")
-    th.innerHTML = ""
+    let thead = document.createElement("thead")
+    thead.innerHTML = "<th>Nombre</th><th>Serie</th>"
+    table.appendChild(thead)
+    
 }
 else{
     // no hay cosas

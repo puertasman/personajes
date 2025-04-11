@@ -1,0 +1,58 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+/* Encabezados de la tabla */
+thead {
+    background-color: #3498db;
+    color: white;
+}
+
+thead th {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Filas del cuerpo */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #ecf0f1;
+}
+
+tbody td {
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+/* Mensaje cuando no hay datos */
+#tablaPersonajes p {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    margin-top: 2rem;
+}
