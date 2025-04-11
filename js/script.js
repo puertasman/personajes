@@ -7,7 +7,14 @@ if (personajesAnimados.length > 0){
     let thead = document.createElement("thead")
     thead.innerHTML = "<th>Nombre</th><th>Serie</th>"
     table.appendChild(thead)
-    
+    let tbody = document.createElement("tbody")
+
+    personajesAnimados.forEach(personaje =>{
+        let tr = document.createElement('tr')
+        tr.innerHTML = `<td>${personaje.nombre}</td><td>${personaje.serie}</td>`
+        tbody.appendChild(tr)
+    })
+    table.appendChild(tbody)
 }
 else{
     // no hay cosas
